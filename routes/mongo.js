@@ -19,7 +19,6 @@ router.get("/subjects", function(req, res, next) {
   Subject.find({})
     .then(function(subjects) {
       var response = new jsonResponse("ok", 200, subjects);
-      console.info(`response: `, response);
       res.json(response).status(response.status);
     })
     .catch(next);
