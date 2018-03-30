@@ -1,0 +1,22 @@
+{
+  "name": "api-subjects",
+  "version": "1.3.5",
+  "description": "Simple node.js app for use with Draft",
+  "author": "Brian Redmond",
+  "scripts": {
+    "run": "NODE_ENV='run' node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "fs": "0.0.1-security",
+    "hbs": "~4.0.1",
+    "mongoose": "^4.13.8",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  }
+}
