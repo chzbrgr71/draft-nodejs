@@ -8,10 +8,7 @@ var bodyParser = require("body-parser");
 var async = require("async");
 const mongoose = require("mongoose");
 
-var MONGODB_URI = process.env.MONGODB_URI;
-console.log(`MONGODB_URI: `, MONGODB_URI);
-
-var URI = MONGODB_URI;
+var URI = process.env.MONGODB_URI;
 
 var Schema = mongoose.Schema,
   ObjectId = mongoose.Types.ObjectId;

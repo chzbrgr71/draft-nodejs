@@ -4,7 +4,8 @@
   "description": "Simple node.js app for use with Draft",
   "author": "Brian Redmond",
   "scripts": {
-    "run": "NODE_ENV='run' node ./bin/www"
+    "local": "NODE_ENV='development' MONGODB_URI='mongodb://briarbuild2018:qNDlyp02G8Xneys1brCIDhUKuPT1oMClubz39pMCuaHQ9rv3a1j0GP6rwnABMIZvVNYGOfpjxNZIOfLlBbjLcQ==@briarbuild2018.documents.azure.com:10255/?ssl=true' node ./bin/www",
+    "container": "NODE_ENV='development' node ./bin/www"
   },
   "dependencies": {
     "async": "^2.6.0",

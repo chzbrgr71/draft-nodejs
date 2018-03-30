@@ -8,7 +8,7 @@ var Subject = mongoose.model("Subject");
 
 /* Default GET JSON for Mongo API */
 router.get("/", function(req, res, next) {
-  var response = new jsonResponse("Default /api endpoint for mongo Subject", 200, []);
+  var response = new jsonResponse("Default /api endpoint for mongo Draft app", 200, []);
   res.json(response).status(response.status);
 });
 
